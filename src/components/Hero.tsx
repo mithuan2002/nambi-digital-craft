@@ -24,7 +24,7 @@ const Hero = () => {
             We don't just market—we craft experiences.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center">
             <a 
               href="https://nambi.onrender.com/" 
               target="_blank" 
@@ -36,9 +36,6 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>
-            <Button variant="outline" size="lg" className="px-8 py-3 text-lg">
-              View Our Work
-            </Button>
           </div>
         </div>
       </div>
