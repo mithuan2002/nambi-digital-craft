@@ -21,7 +21,7 @@ const Hero = () => {
           
           <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
             Innovative marketing campaigns designed specifically for growing clothing brands and modern cafés. 
-            We don't just market—we craft experiences.
+            We specialize in loyalty campaigns that don't just market—we craft experiences.
           </p>
           
           <div className="flex justify-center">
