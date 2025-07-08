@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-gray-900">
-            Nambi
+            Nambi <span className="text-lg font-normal text-gray-600">Agency</span>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
