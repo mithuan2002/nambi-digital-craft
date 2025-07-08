@@ -1,5 +1,5 @@
 
-import { Mail, Globe, ArrowUpRight } from 'lucide-react';
+import { Mail, Phone, Globe, ArrowUpRight } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -20,8 +20,26 @@ const Footer = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-600 rounded-xl mb-4">
                 <Mail className="h-6 w-6" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">Get In Touch</h3>
-              <p className="text-gray-400">hello@nambi.agency</p>
+              <h3 className="text-lg font-semibold mb-2">Email Us</h3>
+              <a 
+                href="mailto:mithuan137@gmail.com"
+                className="text-blue-400 hover:text-blue-300"
+              >
+                mithuan137@gmail.com
+              </a>
+            </div>
+            
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-green-600 rounded-xl mb-4">
+                <Phone className="h-6 w-6" />
+              </div>
+              <h3 className="text-lg font-semibold mb-2">Call Us</h3>
+              <a 
+                href="tel:+919600267509"
+                className="text-green-400 hover:text-green-300"
+              >
+                +91 96002 67509
+              </a>
             </div>
             
             <div className="text-center">
@@ -38,14 +56,6 @@ const Footer = () => {
                 nambi.onrender.com
                 <ArrowUpRight className="h-4 w-4" />
               </a>
-            </div>
-            
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-orange-600 rounded-xl mb-4">
-                <ArrowUpRight className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Let's Talk</h3>
-              <p className="text-gray-400">Book a consultation</p>
             </div>
           </div>
           
